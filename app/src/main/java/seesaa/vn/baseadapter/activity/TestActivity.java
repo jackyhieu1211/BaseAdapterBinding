@@ -9,12 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import seesaa.vn.baseadapter.R;
-import seesaa.vn.baseadapter.base_adapter.MultiTypeAdapter;
 import seesaa.vn.baseadapter.databinding.ActivityTestBinding;
 import seesaa.vn.baseadapter.model.Address;
 import seesaa.vn.baseadapter.model.User;
 import seesaa.vn.baseadapter.presenter.MainDecorator;
 import seesaa.vn.baseadapter.presenter.MainPresenter;
+import seesaa.vn.library.base_adapter.MultiTypeAdapter;
 
 public class TestActivity extends AppCompatActivity {
 

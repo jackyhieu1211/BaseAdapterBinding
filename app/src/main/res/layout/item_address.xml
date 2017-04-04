@@ -4,8 +4,8 @@
 
     <data>
 
-        <!--  bắt buộc phải đặt name = "item" nhé
-              required to set name = "item"
+        <!--
+              required to set name of Object = "item"
          -->
         <variable
             name="item"

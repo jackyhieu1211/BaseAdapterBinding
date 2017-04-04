@@ -10,9 +10,9 @@ public class ToastUtils {
 
     private static Toast sToast;
 
-    public static void showToast(String message) {
+    public static void showToast(Context context, String message) {
         if (sToast != null) sToast.cancel();
-        sToast = Toast.makeText(Application.getContext(), message, Toast.LENGTH_SHORT);
+        sToast = Toast.makeText(context, message, Toast.LENGTH_SHORT);
         sToast.show();
     }
 }

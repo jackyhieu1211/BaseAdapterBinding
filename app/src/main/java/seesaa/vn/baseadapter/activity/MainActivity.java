@@ -10,11 +10,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import seesaa.vn.baseadapter.R;
-import seesaa.vn.baseadapter.base_adapter.SingleTypeAdapter;
 import seesaa.vn.baseadapter.databinding.ActivityMainBinding;
 import seesaa.vn.baseadapter.model.User;
 import seesaa.vn.baseadapter.presenter.MainDecorator;
 import seesaa.vn.baseadapter.presenter.MainPresenter;
+import seesaa.vn.library.base_adapter.SingleTypeAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

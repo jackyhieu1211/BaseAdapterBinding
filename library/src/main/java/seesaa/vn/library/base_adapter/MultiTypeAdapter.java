@@ -1,4 +1,4 @@
-package seesaa.vn.baseadapter.base_adapter;
+package seesaa.vn.library.base_adapter;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;

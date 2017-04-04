@@ -1,4 +1,4 @@
-package seesaa.vn.baseadapter.base_adapter;
+package seesaa.vn.library.base_adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -6,7 +6,8 @@ import android.view.LayoutInflater;
 
 import java.util.List;
 
-import seesaa.vn.baseadapter.BR;
+import seesaa.vn.library.BR;
+
 
 /**
  * Base Data Binding RecyclerView Adapter.

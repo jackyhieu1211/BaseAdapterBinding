@@ -1,7 +1,8 @@
 package seesaa.vn.baseadapter.presenter;
 
-import seesaa.vn.baseadapter.base_adapter.BaseViewAdapter;
-import seesaa.vn.baseadapter.base_adapter.BindingViewHolder;
+
+import seesaa.vn.library.base_adapter.BaseViewAdapter;
+import seesaa.vn.library.base_adapter.BindingViewHolder;
 
 public class MainDecorator implements BaseViewAdapter.Decorator {
 
