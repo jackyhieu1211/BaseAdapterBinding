@@ -5,11 +5,11 @@
 
         <variable
             name="presenter"
-            type="seesaa.vn.library.base_adapter.Dummy" />
+            type="seesaa.vn.library.dummy.Dummy" />
 
         <variable
             name="item"
-            type="seesaa.vn.library.base_adapter.Dummy" />
+            type="seesaa.vn.library.dummy.Dummy" />
     </data>
 
     <FrameLayout
