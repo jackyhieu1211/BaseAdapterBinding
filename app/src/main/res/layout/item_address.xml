@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <!--  bắt buộc phải đặt name = "item" nhé
+              required to set name = "item"
+         -->
+        <variable
+            name="item"
+            type="seesaa.vn.baseadapter.model.Address" />
+
+        <variable
+            name="presenter"
+            type="seesaa.vn.baseadapter.presenter.MainPresenter" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="@{() -> presenter.onItemClick(item)}"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{item.street}"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:text="TEST" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@{String.valueOf(item.number)}"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:text="ABC" />
+
+    </LinearLayout>
+</layout>
