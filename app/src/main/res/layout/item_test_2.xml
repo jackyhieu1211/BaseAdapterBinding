@@ -66,4 +66,19 @@
         android:layout_width="match_parent"
         android:text="item test 2 12"
         android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="item test 2 13"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="item test 2 14"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="item test 2 15"
+        android:layout_height="wrap_content" />
 </LinearLayout>
